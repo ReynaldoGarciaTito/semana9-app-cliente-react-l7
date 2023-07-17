@@ -1,0 +1,16 @@
+@server = https://reynaldogarciatito-congenial-disco-5wppgjxrp4724v4q-8080.preview.app.github.dev
+
+### 
+@employees = {{server}}/api/employees
+
+GET {{employees}}
+
+###
+POST {{employees}}
+Content-Type: application/json 
+
+{
+    "firstName": "Bilbo",
+    "lastName": "Baggins",
+    "description": "burglar"
+}
